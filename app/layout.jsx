@@ -1,5 +1,14 @@
 import "@/assets/styles/globals.css";
 
+export const metadata = {
+  title: "RentalSpot",
+  keywords: "rental, property, real estate",
+  description: "Find the perfect rental property",
+  icons: {
+    icon: "/favicon.ico",
+  },
+};
+
 const MainLayout = ({ children }) => {
   return (
     <html>
