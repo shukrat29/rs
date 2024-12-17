@@ -1,5 +1,6 @@
 import "@/assets/styles/globals.css";
 import Navbar from "@/components/Navbar";
+import logo from "@/assets/images/logo-white.png";
 
 export const metadata = {
   title: "RentalSpot",
