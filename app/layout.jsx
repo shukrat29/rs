@@ -1,6 +1,6 @@
 import "@/assets/styles/globals.css";
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
-import logo from "@/assets/images/logo-white.png";
 
 export const metadata = {
   title: "RentalSpot",
@@ -17,6 +17,7 @@ const MainLayout = ({ children }) => {
       <body>
         <Navbar />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
