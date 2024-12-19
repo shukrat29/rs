@@ -22,7 +22,7 @@ const PropertySchema = new Schema(
       street: String,
       city: String,
       state: String,
-      zipcode: Stri,
+      zipcode: String,
     },
     beds: {
       type: Number,
@@ -66,5 +66,5 @@ const PropertySchema = new Schema(
   }
 );
 
-const User = models.Property || model("Property", UserSchema);
+const Property = models.Property || model("Property", PropertySchema);
 export default Property;
